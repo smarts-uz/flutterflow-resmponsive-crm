@@ -28,4 +28,7 @@ class CustomersRow extends SupabaseDataRow {
 
   String? get email => getField<String>('email');
   set email(String? value) => setField<String>('email', value);
+
+  int? get salary => getField<int>('salary');
+  set salary(int? value) => setField<int>('salary', value);
 }

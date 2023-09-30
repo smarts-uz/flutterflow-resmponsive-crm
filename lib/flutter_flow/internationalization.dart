@@ -273,114 +273,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ms': 'Rumah',
     },
   },
-  // Home
-  {
-    '3bi54x5g': {
-      'en': 'Dashboard',
-      'id': 'Dasbor',
-      'ms': 'Papan pemuka',
-    },
-    'nnv46x35': {
-      'en': 'Below is a summary of your teams activity.',
-      'id': 'Di bawah ini adalah ringkasan aktivitas tim Anda.',
-      'ms': 'Di bawah ialah ringkasan aktiviti pasukan anda.',
-    },
-    'jqevo63s': {
-      'en': 'New Customers',
-      'id': 'pelanggan baru',
-      'ms': 'pelanggan baru',
-    },
-    'd0r4w3cc': {
-      'en': '24',
-      'id': '24',
-      'ms': '24',
-    },
-    '8vot9bzj': {
-      'en': 'New Contracts',
-      'id': 'Kontrak Baru',
-      'ms': 'Kontrak Baru',
-    },
-    '463rfkem': {
-      'en': '3,200',
-      'id': '3.200',
-      'ms': '3,200',
-    },
-    'saxskj92': {
-      'en': 'Expired Contracts',
-      'id': 'Kontrak Kedaluwarsa',
-      'ms': 'Kontrak Tamat',
-    },
-    '2wlrr5lg': {
-      'en': '4300',
-      'id': '4300',
-      'ms': '4300',
-    },
-    'kphqz3hi': {
-      'en': 'Projects',
-      'id': 'Proyek',
-      'ms': 'Projek',
-    },
-    'xlzf8qqx': {
-      'en': 'UI Design Team',
-      'id': 'Tim Desain UI',
-      'ms': 'Pasukan Reka Bentuk UI',
-    },
-    'zt3s5l2s': {
-      'en': '4 Members',
-      'id': '4 Anggota',
-      'ms': '4 Ahli',
-    },
-    'puy8obok': {
-      'en': 'Contract Activity',
-      'id': 'Aktivitas Kontrak',
-      'ms': 'Aktiviti Kontrak',
-    },
-    'zlovh0zt': {
-      'en': 'Below is an a summary of activity.',
-      'id': 'Di bawah ini adalah ringkasan kegiatan.',
-      'ms': 'Di bawah ialah ringkasan aktiviti.',
-    },
-    'g1uaaovn': {
-      'en': 'Customer Activity',
-      'id': 'Aktivitas Pelanggan',
-      'ms': 'Aktiviti Pelanggan',
-    },
-    'e5q3ows1': {
-      'en': 'Below is an a summary of activity.',
-      'id': 'Di bawah ini adalah ringkasan kegiatan.',
-      'ms': 'Di bawah ialah ringkasan aktiviti.',
-    },
-    'uj7jsxmo': {
-      'en': 'Contract Activity',
-      'id': 'Aktivitas Kontrak',
-      'ms': 'Aktiviti Kontrak',
-    },
-    'hkk2zmjw': {
-      'en': 'Below is an a summary of activity.',
-      'id': 'Di bawah ini adalah ringkasan kegiatan.',
-      'ms': 'Di bawah ialah ringkasan aktiviti.',
-    },
-    'jkgae0vc': {
-      'en': 'Customer Activity',
-      'id': 'Aktivitas Pelanggan',
-      'ms': 'Aktiviti Pelanggan',
-    },
-    'g4os7kcp': {
-      'en': 'Below is an a summary of activity.',
-      'id': 'Di bawah ini adalah ringkasan kegiatan.',
-      'ms': 'Di bawah ialah ringkasan aktiviti.',
-    },
-    'y24lcr13': {
-      'en': 'Dashboard',
-      'id': 'Dasbor',
-      'ms': 'Papan pemuka',
-    },
-    'xdxbdj20': {
-      'en': '__',
-      'id': '__',
-      'ms': '__',
-    },
-  },
   // Main_customerList
   {
     'n99lg1qh': {
@@ -564,6 +456,114 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ms': '__',
     },
   },
+  // Home
+  {
+    '3bi54x5g': {
+      'en': 'Dashboard',
+      'id': 'Dasbor',
+      'ms': 'Papan pemuka',
+    },
+    'nnv46x35': {
+      'en': 'Below is a summary of your teams activity.',
+      'id': 'Di bawah ini adalah ringkasan aktivitas tim Anda.',
+      'ms': 'Di bawah ialah ringkasan aktiviti pasukan anda.',
+    },
+    'jqevo63s': {
+      'en': 'New Customers',
+      'id': 'pelanggan baru',
+      'ms': 'pelanggan baru',
+    },
+    'd0r4w3cc': {
+      'en': '24',
+      'id': '24',
+      'ms': '24',
+    },
+    '8vot9bzj': {
+      'en': 'New Contracts',
+      'id': 'Kontrak Baru',
+      'ms': 'Kontrak Baru',
+    },
+    '463rfkem': {
+      'en': '3,200',
+      'id': '3.200',
+      'ms': '3,200',
+    },
+    'saxskj92': {
+      'en': 'Expired Contracts',
+      'id': 'Kontrak Kedaluwarsa',
+      'ms': 'Kontrak Tamat',
+    },
+    '2wlrr5lg': {
+      'en': '4300',
+      'id': '4300',
+      'ms': '4300',
+    },
+    'kphqz3hi': {
+      'en': 'Projects',
+      'id': 'Proyek',
+      'ms': 'Projek',
+    },
+    'xlzf8qqx': {
+      'en': 'UI Design Team',
+      'id': 'Tim Desain UI',
+      'ms': 'Pasukan Reka Bentuk UI',
+    },
+    'zt3s5l2s': {
+      'en': '4 Members',
+      'id': '4 Anggota',
+      'ms': '4 Ahli',
+    },
+    'puy8obok': {
+      'en': 'Contract Activity',
+      'id': 'Aktivitas Kontrak',
+      'ms': 'Aktiviti Kontrak',
+    },
+    'zlovh0zt': {
+      'en': 'Below is an a summary of activity.',
+      'id': 'Di bawah ini adalah ringkasan kegiatan.',
+      'ms': 'Di bawah ialah ringkasan aktiviti.',
+    },
+    'g1uaaovn': {
+      'en': 'Customer Activity',
+      'id': 'Aktivitas Pelanggan',
+      'ms': 'Aktiviti Pelanggan',
+    },
+    'e5q3ows1': {
+      'en': 'Below is an a summary of activity.',
+      'id': 'Di bawah ini adalah ringkasan kegiatan.',
+      'ms': 'Di bawah ialah ringkasan aktiviti.',
+    },
+    'uj7jsxmo': {
+      'en': 'Contract Activity',
+      'id': 'Aktivitas Kontrak',
+      'ms': 'Aktiviti Kontrak',
+    },
+    'hkk2zmjw': {
+      'en': 'Below is an a summary of activity.',
+      'id': 'Di bawah ini adalah ringkasan kegiatan.',
+      'ms': 'Di bawah ialah ringkasan aktiviti.',
+    },
+    'jkgae0vc': {
+      'en': 'Customer Activity',
+      'id': 'Aktivitas Pelanggan',
+      'ms': 'Aktiviti Pelanggan',
+    },
+    'g4os7kcp': {
+      'en': 'Below is an a summary of activity.',
+      'id': 'Di bawah ini adalah ringkasan kegiatan.',
+      'ms': 'Di bawah ialah ringkasan aktiviti.',
+    },
+    'y24lcr13': {
+      'en': 'Dashboard',
+      'id': 'Dasbor',
+      'ms': 'Papan pemuka',
+    },
+    'xdxbdj20': {
+      'en': '__',
+      'id': '__',
+      'ms': '__',
+    },
+  },
   // Main_Contracts
   {
     '4h88trkp': {
@@ -684,35 +684,10 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'id': 'Tanggal Diciptakan',
       'ms': 'Tarikh Dibuat',
     },
-    'qriboqj2': {
-      'en': 'Status',
-      'id': 'Status',
-      'ms': 'Status',
-    },
-    'yxvgnrrg': {
-      'en': 'Alex Smith',
-      'id': 'Alex Smith',
-      'ms': 'Alex Smith',
-    },
-    'hbvgee7f': {
-      'en': 'user@domainname.com',
-      'id': 'pengguna@namadomain.com',
-      'ms': 'pengguna@nama domain.com',
-    },
     'cxqbcilh': {
       'en': 'user@domain.com',
       'id': 'pengguna@domain.com',
       'ms': 'pengguna@domain.com',
-    },
-    'mv4x7wmh': {
-      'en': 'Status',
-      'id': 'Status',
-      'ms': 'Status',
-    },
-    'mi8mhgph': {
-      'en': 'Status',
-      'id': '',
-      'ms': '',
     },
     'w2zw9cr7': {
       'en': 'Andrea Rudolph',
@@ -1204,6 +1179,72 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Home',
       'id': 'Rumah',
       'ms': 'Rumah',
+    },
+  },
+  // updateteam
+  {
+    'vlo7sk68': {
+      'en': 'Name',
+      'id': '',
+      'ms': '',
+    },
+    'etpojm28': {
+      'en': 'Email',
+      'id': '',
+      'ms': '',
+    },
+    '9js0xg2y': {
+      'en': 'Job',
+      'id': '',
+      'ms': '',
+    },
+    '7r0ymaqx': {
+      'en': 'Save',
+      'id': '',
+      'ms': '',
+    },
+    '3wdh2jyu': {
+      'en': 'Update',
+      'id': '',
+      'ms': '',
+    },
+    'r31dx1ti': {
+      'en': 'Home',
+      'id': '',
+      'ms': '',
+    },
+  },
+  // creatnewteam
+  {
+    'dln04spf': {
+      'en': 'Name',
+      'id': '',
+      'ms': '',
+    },
+    'l8zkx61e': {
+      'en': 'Email',
+      'id': '',
+      'ms': '',
+    },
+    'ttb76nqn': {
+      'en': 'Job',
+      'id': '',
+      'ms': '',
+    },
+    'oryai8e5': {
+      'en': 'Add a new user',
+      'id': '',
+      'ms': '',
+    },
+    'j981905y': {
+      'en': 'A new user',
+      'id': '',
+      'ms': '',
+    },
+    'hm24i7uk': {
+      'en': 'Home',
+      'id': '',
+      'ms': '',
     },
   },
   // modal_success

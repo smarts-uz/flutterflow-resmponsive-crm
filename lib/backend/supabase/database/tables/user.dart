@@ -25,4 +25,7 @@ class UserRow extends SupabaseDataRow {
 
   String? get name => getField<String>('name');
   set name(String? value) => setField<String>('name', value);
+
+  String? get title => getField<String>('title');
+  set title(String? value) => setField<String>('title', value);
 }

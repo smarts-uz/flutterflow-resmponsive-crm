@@ -125,8 +125,8 @@ class _NavBarPageState extends State<NavBarPage> {
   @override
   Widget build(BuildContext context) {
     final tabs = {
-      'Home': HomeWidget(),
       'Main_customerList': MainCustomerListWidget(),
+      'Home': HomeWidget(),
       'Main_Contracts': MainContractsWidget(),
       'myTeam': MyTeamWidget(),
       'Main_profilePage': MainProfilePageWidget(),
@@ -156,20 +156,6 @@ class _NavBarPageState extends State<NavBarPage> {
           items: <BottomNavigationBarItem>[
             BottomNavigationBarItem(
               icon: Icon(
-                Icons.dashboard_outlined,
-                size: 24.0,
-              ),
-              activeIcon: Icon(
-                Icons.dashboard_rounded,
-                size: 32.0,
-              ),
-              label: FFLocalizations.of(context).getText(
-                'xdxbdj20' /* __ */,
-              ),
-              tooltip: '',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(
                 Icons.supervised_user_circle_outlined,
                 size: 24.0,
               ),
@@ -179,6 +165,20 @@ class _NavBarPageState extends State<NavBarPage> {
               ),
               label: FFLocalizations.of(context).getText(
                 '3ourv2w9' /* __ */,
+              ),
+              tooltip: '',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.dashboard_outlined,
+                size: 24.0,
+              ),
+              activeIcon: Icon(
+                Icons.dashboard_rounded,
+                size: 32.0,
+              ),
+              label: FFLocalizations.of(context).getText(
+                'xdxbdj20' /* __ */,
               ),
               tooltip: '',
             ),

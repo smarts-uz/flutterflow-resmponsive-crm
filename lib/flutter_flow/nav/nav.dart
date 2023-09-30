@@ -104,18 +104,18 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               builder: (context, params) => ForgotPasswordWidget(),
             ),
             FFRoute(
-              name: 'Home',
-              path: 'home',
-              builder: (context, params) => params.isEmpty
-                  ? NavBarPage(initialPage: 'Home')
-                  : HomeWidget(),
-            ),
-            FFRoute(
               name: 'Main_customerList',
               path: 'mainCustomerList',
               builder: (context, params) => params.isEmpty
                   ? NavBarPage(initialPage: 'Main_customerList')
                   : MainCustomerListWidget(),
+            ),
+            FFRoute(
+              name: 'Home',
+              path: 'home',
+              builder: (context, params) => params.isEmpty
+                  ? NavBarPage(initialPage: 'Home')
+                  : HomeWidget(),
             ),
             FFRoute(
               name: 'Main_Contracts',
@@ -162,6 +162,18 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               name: 'searchPage',
               path: 'searchPage',
               builder: (context, params) => SearchPageWidget(),
+            ),
+            FFRoute(
+              name: 'updateteam',
+              path: 'updateteam',
+              builder: (context, params) => UpdateteamWidget(
+                team: params.getParam<UserRow>('team', ParamType.SupabaseRow),
+              ),
+            ),
+            FFRoute(
+              name: 'creatnewteam',
+              path: 'creatnewteam',
+              builder: (context, params) => CreatnewteamWidget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ),
